@@ -107,7 +107,7 @@ def main(folder: Path, flag: bool):
 
 if __name__ == "__main__":
     print("PIL版本:", Image.__version__)
-    src_folder = r"C:\Users\admin\Desktop\iPhone6\升级提醒"
+    src_folder = r"替换成要处理的文件夹路径"
     folder_path = Path(src_folder).resolve()
     if not folder_path.exists():
         raise FileNotFoundError(f"{folder_path} 不存在！")
